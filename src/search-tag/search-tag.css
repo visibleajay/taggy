@@ -1,0 +1,38 @@
+
+.searchTagParent {
+    display: flex;
+    align-items: center;
+    max-width: 50vw;
+    border: 1px solid #a7a7d4;
+    height: 5vmin;
+    padding: 1px;
+}
+
+.searchTagInput{
+    flex: 1;
+    font-size: 12px;
+    width: inherit;
+    border: none;
+    padding: 5px;
+}
+
+.searchTagAddTagImg {
+    height: 10px;
+    cursor: pointer;
+}
+
+.searchTagAddTagInfo {
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 100px;
+    background-color: #e6be6e;
+    padding: 5px;
+    color: white;
+    display: none;
+    font-size: 12px;
+}
+
+.searchTagAddTagImg:hover+.searchTagAddTagInfo {
+    display: block;
+}

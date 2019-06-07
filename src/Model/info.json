@@ -1,0 +1,53 @@
+
+[{
+    "name": "Country",
+    "color": "#9ecba0",
+    "tags": [
+                {
+                    "id": "country1",
+                    "name": "Australia",
+                    "description": "A continent also",
+                    "isEnable": true,
+                    "group": "HV"
+                }, {
+                    "id": "country2",
+                    "name": "India",
+                    "description": "A beautiful world.",
+                    "isEnable": true,
+                    "group": "LV"
+                }, {
+                    "id": "country3",
+                    "name": "Pakistan",
+                    "description": "An unpeaceful country.",
+                    "isEnable": true,
+                    "group": "HV"
+                }
+            ]
+}, {
+    "name": "City",
+    "color": "#727db7",
+    "tags": [
+                {
+                    "id": "city1",
+                    "name": "Paris",
+                    "description": "The lost love",
+                    "isEnable": false,
+                    "group": "HV"
+                },
+                {
+                    "id": "city2",
+                    "name": "London",
+                    "description": "A rocking world",
+                    "isEnable": true,
+                    "group": "LV"
+                },
+                {
+                    "id": "city3",
+                    "name": "Adelaide",
+                    "description": "An island city",
+                    "isEnable": false,
+                    "group": "HV"
+                }
+            ]
+    }
+]

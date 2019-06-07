@@ -1,0 +1,43 @@
+
+.tagParent {
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 1px 5px 1px 10px;
+    margin: 5px;
+}
+
+.tagAddLogo {
+    height: 10px;
+    margin-left: 10px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.tagAddLogoInfo {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    padding: 3px;
+    background-color: #e6be6e;
+    color: white;
+    z-index: 1;
+    width: 7vw;
+    font-size: 12px;
+}
+
+.tagAddLogo:hover+.tagAddLogoInfo{
+    display: block;
+}
+
+.tagCategoryId {
+    height: 5px;
+    width: 5px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.disableTag {
+    background-color: #d3d3d3;
+    color: gray;
+}

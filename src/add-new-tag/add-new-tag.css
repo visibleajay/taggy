@@ -1,0 +1,72 @@
+
+.addNewTagParent {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.25);
+    position: absolute;
+}
+
+.addNewTagParent > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    background-color: white;
+    border-radius: 1%;
+    -webkit-box-shadow: -5px -3px 34px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px -3px 34px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px -3px 34px -4px rgba(0,0,0,0.75);
+}
+
+.header {
+    width: 30vw;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    padding: 10px;
+    width: 30vw;
+}
+
+.addNewTagFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 5vh;
+    padding: 10px;
+    width: 30vw;
+    border-top: 1px solid #c3c3c3;
+}
+
+.addNewTagFooter > button:hover {
+    background-color: #c3c3c3;
+}
+
+.btnStyle {
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.addBtn {
+    margin-left: 10px;
+}
+
+select.addNewForm, input.addNewForm {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #e4e4e4;
+}
+
