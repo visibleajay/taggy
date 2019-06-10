@@ -24,6 +24,7 @@ To run the app use
 Future release can have:- 
 1) Include Redux library for state updation.
 2) Include React-Router for Page transition.
-3) Include Unit Test Cases for imp. functions.
+3) Make Taggy PWA compliant.
+4) Include Unit Test Cases for imp. functions.
 
 Happy Coding!.
